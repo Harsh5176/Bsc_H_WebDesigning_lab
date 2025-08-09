@@ -1,0 +1,15 @@
+table{
+    background-color:white;
+}
+
+fieldset{
+    background-color: antiquewhite;
+}
+
+#H,#A{
+    background-color: whitesmoke;    
+}
+
+#H{
+    column-width: 200px;
+}

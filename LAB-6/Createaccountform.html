@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>
+            Create Account
+        </title>
+        <link rel="Stylesheet" href="./new.css" type="text/css" >
+    </head>
+    <body>
+            <form>
+                <table align="center" cellspacing="10" id="Tname">
+                <tr>
+                    <td colspan="2" align="center"> <h1>Create Account</h1></td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="fname"> <font color="#00ff00">First Name* </font> </label></td>                      
+                    <td><label for="lname"> <font color="#00ff00">Last Name* </font> </label></td>
+                </tr>
+                
+                
+                <tr>
+                    <td>
+                        <input type="text" id="fname" placeholder="Enter your first name" required>
+                    </td>
+                    <td><input type="text" id="lname" placeholder="Enter your last name" required></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><label for="ename"> <font color="#00ff00">Email* </font> </label></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input size="60px" type="email" id="ename" placeholder="enter your email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pname"> <font color="#00ff00">password* </font> </label></td>                      
+                    <td><label for="pcname"> <font color="#00ff00">confirm password* </font> </label></td>
+                </tr>
+                
+                
+                <tr>
+                    <td>
+                        <input type="text" id="pname" placeholder="Enter your password" required>
+                    </td>
+                    <td><input type="text" id="pcname" placeholder="Enter your password again" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="gname"> <font color="#00ff00">Gender* </font> </label></td>                      
+                    <td><label for="hname"> <font color="#00ff00">Hobbies* </font> </label></td>
+                </tr>
+                
+                
+                <tr>
+                    <td>
+                                <label for="m">Male</label>
+                                <input id="m" type="radio" value="Male" name="Gender">                                          
+                                <label for="f">Female</label>
+                                <input id="f"type="radio" value="Female" name="Gender">
+                    </td>
+                    <td>
+                        <label for="M">Music</label>
+                        <input type="checkbox" id="M" required>
+                        <label for="S">Sport</label>
+                        <input type="checkbox" id="S" required>
+                        <label for="T">Travel</label>
+                        <input type="checkbox" id="T" required>
+                        <label for="O">Movies</label>
+                        <input type="checkbox" id="O" required>
+                    </td>
+                    
+                </tr>
+
+
+                <tr>
+                    <td><label for="sname"> <font color="#00ff00">Source of Income </font> </label></td>                      
+                    <td><label for="iname"> <font color="#00ff00">income</font> </label></td>
+                </tr>
+                
+                
+                <tr>
+                    <td>
+                        <input type="text" id="sname" placeholder="Enter your income" required>
+                    </td>
+                    <td><input type="range" id="iname" max="20000" min="0" required>
+                        <input type="button" value="20k"></td>
+                
+                </tr>
+
+
+
+                <tr>
+                    <td><label> <font color="#00ff00">Upload Profile Picture </font> </label></td>                      
+                    <td><label for="Aname"> <font color="#00ff00">Age </font> </label></td>
+                </tr>
+                
+                
+                <tr>
+                    <td>
+                        <input type="file"  required>
+                    </td>
+                    <td><input type="number" max="50" min="10" id="Aname" placeholder="18" required></td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="bname"> <font color="#00ff00">Bio</font> </label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea id="bname" cols="55" rows="5"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td align="right">
+                        <input type="button" value="Create">
+                    </td>
+                </tr>
+
+                </table>
+            </form>
+    </body>
+</html>

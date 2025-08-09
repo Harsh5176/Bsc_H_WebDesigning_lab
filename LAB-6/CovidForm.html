@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>
+            Covid Form
+        </title>
+    </head>
+    <body>
+        <fieldset bgcolor="powderblue">
+            <table align="center" border="0" >
+                <tr>
+                <td colspan="3" align="center"><b>Covid-19 Vaccine Registration Form</b></td>
+               </tr>
+               <tr>
+                <td><label for="fname">Firstname</label></td>
+                <td>:</td>
+                <td>
+                    
+                    <input type="text" id="fname" placeholder="Firstname" required>
+                </td>
+               </tr>
+               <tr>
+                <td><label for="lname">Lastname</label></td>
+                <td>:</td>
+                <td><input type="text" id="lname" placeholder="Lastname" required></td>
+               </tr>
+               <tr>
+                <td> <label for="aname">Aadhar no</label></td>
+                <td>:</td>
+                <td><input type="text" id="aname" placeholder="Aadhar no" required maxlength="12"></td>
+               </tr>
+               <tr>
+                <td><label for="vname">Vaccine name</label></td>
+                <td>:</td>
+                <td>
+                    <select id="vname" required>
+                        <option>Mumps and Rubella</option>
+                        <option>Covid-19</option>
+                        <option>Polio</option>
+                    </select>
+                    
+                </td>
+               </tr>
+               <tr>
+                <td><label for="vcname">Vaccine center name</label></td>
+                <td>:</td>
+                <td> <select id="vcname" required>
+                    <option>Rajkot</option>
+                    <option>Morbi</option>
+                    <option>Jamnagar</option>
+                </select></td>
+               </tr>
+               <tr>
+                <td><label for="dname">Date of dose</label></td>
+                <td>:</td>
+                <td><input type="date" id="dname" required></td>
+               </tr>
+               <tr>
+                <td><lable for="doname">Dose no</lable></td>
+                <td>:</td>
+                <td><input id="doname" type="number" min="1" max="5" required></td>
+               </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                        <input type="submit" name="Submit" value="click here">
+                        <input type="reset" name="reste" value="cancel">
+                    </td>
+                </tr>
+                
+        </fieldset>
+    </body>
+</html>

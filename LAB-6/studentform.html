@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>
+            Student Form
+        </title>
+    </head>
+    <body>
+        <fieldset>
+            <form>
+                <table align="center">
+                    <tr>
+                        <td colspan="3"><h1>Student Registration</h1></td>
+                    </tr>            
+                    <tr>
+                        <td><label
+                         for="fname">Fullname</label>
+                        <td>:</td>
+                        <td> 
+                            <input type="text" id="fname" placeholder="Fullname" required>
+                        </td>
+    
+                        <tr>
+                            <td><label for="mname">Mobile no</label></td>
+                            <td>:</td>
+                            <td>                           
+                                <input type="text" id="mname" maxlength="15" placeholder="Mobile number" required>
+                            </td>
+                        </tr>
+                        <tr>
+    
+                            <td><label for="ename">Email</label></td>
+                            <td>:</td>
+                            <td>                          
+                                <input type="email" id="ename"  placeholder="abc@gmail.com" required>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td><label for="aname">Address</label></td>
+                            <td>:</td>
+                            <td><textarea></textarea></td>
+                        </tr>
+    
+                        <tr>
+                            <td><label for="Nname">Nationality</label></td>
+                            <td>:</td>
+                            <td>    
+                                <input type="text" id="Nname" placeholder="Nationality" required>
+                            </td>
+                        </tr>
+    
+                         <tr>
+                            <td><label for="date">Date of birth</label></td>
+                            <td>:</td>
+                            <td>                    
+                                <input type="date" id="date"  required>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>Gender</td>
+                            <td>:</td>
+                            <td>
+                                <label for="m">Male</label>
+                                <input id="m" type="radio" value="Male" name="Gender">                                          
+                                <label for="f">Female</label>
+                                <input id="f"type="radio" value="Female" name="Gender">
+                                <label for="o">Other</label>
+                                <input id="o" type="radio" value="Other" name="Gender">
+                            </td>
+                        </tr>
+                        
+    
+                        <tr>
+                            <td><label for="hname">Highest Degree</label></td>
+                            <td>:</td>
+                            <td> <select id="hname" required>
+                                <option selected disabled >Select Degree</option>
+                                <option>(B.S.C.E./B.S.Cmp.E.)</option>
+                                <option>(B.S.M.E.)</option>
+                                <option>(B.S.C.E.T./B.S.Civ.E.T.)</option>
+                                <option>(B.S.S.E.)</option>
+                                <option >(B.S.E.E.T.)</option>
+                                </select>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td><label for="Hname">CPI</label></td></td>
+                            <td>:</td>
+                            <td> 
+                                <input id="Hname" type="text" required>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td><label for="uname">University</label></td></td>
+                            <td>:</td>
+                            <td>
+                                <input id="uname" type="text" required>
+                            </td>
+                        </tr>
+    
+    
+                        <tr>
+                            <td><label for="pname">Passing year</label></td></td>
+                            <td>:</td>
+                            <td>
+                               <select>
+                                <option selected disabled>Select year</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                                <option>2023</option>
+                                <option>2024</option>
+                                <option>2025</option>
+                               </select>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            
+                            <td colspan="3" align="center">
+                                <input type="submit" name="Submit">
+                                <input type="reset" name="reset">
+                                <input type="button">
+                            </td>
+                        </tr>
+                </table>
+            </form>
+        </fieldset>
+    </body>
+</html>

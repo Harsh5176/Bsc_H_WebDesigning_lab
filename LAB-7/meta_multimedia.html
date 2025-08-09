@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="An HTML file demonstrating meta tags, audio, video, and embedded content.">
+  <meta name="keywords" content="HTML, meta, audio, video, embed, iframe, object">
+  <meta name="author" content="Harsh Vekariya">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="15"> <!-- Refresh page every 30 seconds -->
+  <title>All-in-One HTML Demo</title>
+</head>
+<body>
+
+  <h1>🌐 HTML Features Demo</h1>
+  <hr>
+
+  <!-- Section 1: Meta Tags Description -->
+  <section>
+    <h2>1. Meta Tags</h2>
+    <p>This page includes meta tags for description, keywords, author, viewport, charset, and auto-refresh.</p>
+  </section>
+
+  <!-- Section 2: Audio -->
+  <section>
+    <h2>2. Audio Example</h2>
+    <p>Background music playing in loop with controls:</p>
+    <audio controls autoplay loop>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <!-- Section 3: Video -->
+  <section>
+    <h2>3. Video Example</h2>
+    <p>HTML5 Video with controls and poster image:</p>
+    <video width="640" height="360" controls poster="https://via.placeholder.com/640x360.png?text=Video+Preview">
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Section 4: Embed, Object, Iframe -->
+  <section>
+    <h2>4. Embedded Content</h2>
+
+    <h3>📄 Embed PDF</h3>
+    <embed src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" 
+           type="application/pdf" width="600" height="400">
+
+    <h3>📄 Object PDF</h3>
+    <object data="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" 
+            type="application/pdf" width="600" height="400">
+      <p>Your browser does not support object embedding.</p>
+    </object>
+
+    <h3>🎬 YouTube Video (Iframe)</h3>
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+            title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+    </iframe>
+
+    <h3>🗺 Google Maps (Iframe)</h3>
+
+
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0861537850094!2d144.9630583159045!3d-37.81362797975162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f2a0b1f7%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sin!4v1602497262341" 
+      width="600" height="450" 
+      frameborder="0" style="border:0;" allowfullscreen="" 
+      aria-hidden="false" tabindex="0">
+    </iframe>
+    
+  </section>
+
+</body>
+</html>
