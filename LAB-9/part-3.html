@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced CSS Selectors</title>
+    <style>
+        ul > li {
+            color: teal;
+            list-style-type: square;
+        }
+
+        h2 + p {
+            font-style: italic;
+            color: brown;
+        }
+
+        input[type="text"] {
+            border: 2px solid green;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Section Title</h2>
+    <p>This paragraph is styled with adjacent sibling selector (h2 + p).</p>
+    <p>This one is not adjacent to an h2, so it’s not affected.</p>
+
+    <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <ol>
+            <li>Nested Item (not affected)</li>
+        </ol>
+    </ul>
+
+    <form>
+        <label>Name:</label><br>
+        <input type="text" name="name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group and Descendant Selectors</title>
+    <style>
+        /* Group selector */
+        h1, p {
+            color: darkred;
+        }
+
+        /* Universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Descendant selector */
+        div p {
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Styled Header</h1>
+    <p>Paragraph outside div</p>
+
+    <div>
+        <p>This paragraph is inside a div and has background color.</p>
+    </div>
+
+</body>
+</html>
